@@ -13,7 +13,7 @@ router.get('/proyectos', (req, res) => {
 
 // Ruta Habilidades
 router.get('/habilidades', (req, res) => {
-  res.render('Habilidades');
+  res.render('habilidades');
 });
 
 // Ruta contacto
