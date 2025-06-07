@@ -320,10 +320,20 @@ section {
 }
 
 .project-image {
-  height: 12rem;
-  background: linear-gradient(to right, #60a5fa, #a78bfa);
-  border-top-left-radius: var(--border-radius);
-  border-top-right-radius: var(--border-radius);
+   height: 150px;
+  background: linear-gradient(135deg, #8b5cf6, #60a5fa); /* morado-azul */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.project-image img {
+  max-height: 90%;
+  max-width: 90%;
+  object-fit: contain;
 }
 
 .project-links {

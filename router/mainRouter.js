@@ -12,7 +12,7 @@ router.get('/proyectos', (req, res) => {
 });
 
 // Ruta Habilidades
-router.get('/Habilidades', (req, res) => {
+router.get('/habilidades', (req, res) => {
   res.render('Habilidades');
 });
 
